@@ -1,0 +1,10 @@
+@source "../../app.config.ts";
+@source "../../components/**/*.vue";
+@source "../../composables/**/*.js";
+@source "../../pages/**/*.vue";
+@source "../../plugins/**/*.js";
+
+:root {
+  --font-sans: PlusJakartaSans, ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}

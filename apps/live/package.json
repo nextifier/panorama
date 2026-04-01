@@ -1,0 +1,20 @@
+{
+  "name": "@panorama/live",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@panorama/base": "workspace:*",
+    "nuxt": "^4.4.2"
+  },
+  "devDependencies": {
+    "@vite-pwa/nuxt": "^0.10.6",
+    "sass": "^1.98.0",
+    "vue3-lottie": "^3.3.1"
+  }
+}
