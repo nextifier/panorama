@@ -1,6 +1,6 @@
 <template>
   <div v-if="brand" class="container py-10 lg:py-16">
-    <BackButton />
+    <ButtonBack />
 
     <!-- Hero -->
     <div class="mb-12 lg:mb-16">

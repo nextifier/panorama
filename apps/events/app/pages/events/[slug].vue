@@ -56,7 +56,7 @@
         <div
           class="flex items-center justify-between px-4 sm:px-0 lg:order-first"
         >
-          <BackButton />
+          <ButtonBack />
 
           <DialogShare :pageTitle="title" />
         </div>

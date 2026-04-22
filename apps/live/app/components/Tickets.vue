@@ -177,7 +177,7 @@
                     </div>
                   </div>
 
-                  <LoadingChaoticOrbit v-else class="mt-1" />
+                  <Spinner v-else class="mt-1" />
                 </div>
               </div>
 

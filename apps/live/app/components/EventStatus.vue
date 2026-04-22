@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center">
-    <LoadingChaoticOrbit v-if="!eventStatus" />
+    <Spinner v-if="!eventStatus" />
 
     <div
       v-else-if="eventStatus.toLowerCase() === 'upcoming'"
